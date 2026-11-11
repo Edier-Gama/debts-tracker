@@ -1,0 +1,313 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Ambisonic_Spaces-Binaural_Nature-Frozen_Lake_Windy.wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/cinematic-hit-rising-dirty-synth_by_slava-pogorelsky_Artlist.wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/DRYP_Interview.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/DRYP-Bumper.mov",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/ES_Cymbal_Swell_High-1-SFX_Producer.wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/ES_PE_Hit_53-SFX_Producer.wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Glitch(69).wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Glitch(70).wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Iceberg.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/idokay-there_are_no_spiders-Instrumental_Version.wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/INT1T02.wav",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space8_0112Y9_001.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space8_0112Y9.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space9_0112MZ.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space10_0112G6.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space13_0112EZ.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space14_0112ZH.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space15_0112IY.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space16_011226.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/Suspense_in_Space18_0112PI.mp4"
+            ],
+            "minVersion": "23.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/GenerativeExtendLearnTutorial.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/19688465-9d1b-446e-a4b4-b0dd7eb86d4f.mp4"
+                        },
+                        {
+                            "text": "Increase scene tension with extra frames",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Try adding a few frames to the clip using <$Generative Extend$>.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the toolbar, select the <$Generative Extend$> tool."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "clipAdded",
+                                            "payload": {
+                                                "clipName": "Suspense_in_Space18_0112PI-extended"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Drag the end of the clip until it fills the gap. Then, wait a moment for the new frames to generate."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "ctiMoved"
+                                        }
+                                    ],
+                                    "showOnComplete": {
+                                        "heading": "Amazing!",
+                                        "texts": [
+                                            "Great job using <$Generative Extend$> to increase the intensity of this scene. The suspense really builds by holding that clip just a few frames longer."
+                                        ]
+                                    },
+                                    "text": "Press the <%{KEY.SPACEBAR}%> to watch the scene with the newly generated frames."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepActionsOnShow": [
+                        {
+                            "actionName": "openSequenceByName",
+                            "payload": {
+                                "sequenceName": "Generative Extend 2"
+                            }
+                        }
+                    ],
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/e738fa4b-7353-4b3c-8689-f5543a0b5a96.mp4"
+                        },
+                        {
+                            "text": "Fix an awkward end point",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Try using <$Generative Extend$> to replace the frames at the end of this clip so that the interviewee doesn't continue talking as the logo fades in.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "ctiMoved"
+                                        }
+                                    ],
+                                    "text": "Press the <%{KEY.SPACEBAR}%> to watch the original edit for this promotion."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "clipLengthChanged",
+                                            "payload": {
+                                                "clipName": "DRYP_Interview.mp4"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Using the <$Selection$> tool, trim the clip to the green marker at the end of the usable footage."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "clipAdded",
+                                            "payload": {
+                                                "clipName": "DRYP_Interview-extended"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Choose the <$Generative Extend$> tool and drag the end of the clip forward to the teal marker, where the cross dissolve ends. Wait for the new frames to generate."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "ctiMoved"
+                                        }
+                                    ],
+                                    "showOnComplete": {
+                                        "heading": "Fantastic!",
+                                        "texts": [
+                                            "<$Generative Extend$> can be used at any edit point to perfect your edits. The new frames at the end of this interview clip have made it much more usable as a promotional video."
+                                        ]
+                                    },
+                                    "text": "Watch the sequence back and look for the differences."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepActionsOnShow": [
+                        {
+                            "actionName": "openSequenceByName",
+                            "payload": {
+                                "sequenceName": "Generative Extend 3"
+                            }
+                        }
+                    ],
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/try-generative-extend/47b6beb0-8149-47c5-ac5c-8a84041bdc98.mp4"
+                        },
+                        {
+                            "text": "Extend audio clips",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Try using <$Generative Extend$> to extend the video and audio of this clip.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "clipAdded",
+                                            "payload": {
+                                                "clipName": "Iceberg-extended"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Using the <$Generative Extend$> tool, drag the end of the clip so that it generates two seconds of new frames."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "ctiMoved"
+                                        }
+                                    ],
+                                    "showOnComplete": {
+                                        "heading": "Awesome!",
+                                        "texts": [
+                                            "The generated audio seamlessly blends with the recorded audio. You can use <$Generative Extend$> to fill in background noise and sound effects when working on your video projects."
+                                        ]
+                                    },
+                                    "text": "Press the <%{KEY.SPACEBAR}%> to watch the clip with the new generated frames."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        },
+                        {
+                            "texts": [
+                                "You can view the most up-to-date media requirements on <a href=\"https://helpx.adobe.com/premiere-pro/using/generative-extend.html\">Adobe HelpX</a>."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Great job!",
+                            "successText": "Try using <$Generative Extend$> in your projects when you need to add a few frames to add suspense, extend background sound, cover a transition, or create the perfect cut.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "59fe6966-2211-3fb2-82e0-d94c53bc561d",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "59fe6966-2211-3fb2-82e0-d94c53bc561d",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/try-generative-extend",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Perfect your edits by adding or replacing frames using Generative Extend.",
+            "short": "Perfect your edits by adding or replacing frames using Generative Extend.",
+            "long": "Perfect your edits by adding or replacing frames using Generative Extend."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/0e2d7f85-e90d-3af5-ac81-6aafaa1024c1/try-generative-extend_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/0e2d7f85-e90d-3af5-ac81-6aafaa1024c1/try-generative-extend_1920x1080.jpg"
+        },
+        "title": "Use Generative Extend to add frames with AI",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "240",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "video"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2025-03-04T20:58:32.324Z",
+    "modified_on": "2026-01-07T18:34:45.705Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "0e2d7f85-e90d-3af5-ac81-6aafaa1024c1",
+    "commitId": "1b12497aaa8f0e51080cb7e3804c9eb0585bba16",
+    "type": "project"
+}

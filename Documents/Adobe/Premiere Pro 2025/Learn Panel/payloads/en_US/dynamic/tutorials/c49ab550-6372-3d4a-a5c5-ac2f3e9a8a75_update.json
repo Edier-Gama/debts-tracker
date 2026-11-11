@@ -1,0 +1,388 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/City_Traffic_Adobestock_601821170.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/Seagulls_and_Crows_03_Adobestock_601822339.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/Skateboard_Approach_09_Adobestock_601820535.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/IPHONE_IMG_2611.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/AdobeStock_322193172.mp4"
+            ],
+            "minVersion": "12.0.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/Graphics.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/d6ad5307-392f-487c-8845-cd1807077dbd.mp4"
+                        },
+                        {
+                            "text": "Create a title",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Creating simple titles and graphics is a great way to elevate your film. Use the <$Captions and Graphics$> workspace for creating and editing your graphics. To switch to that workspace, choose <$Window$> > <$Workspaces$> > <$Captions and Graphics$> from the application menu.",
+                            "type": "text"
+                        },
+                        {
+                            "texts": [
+                                "<$Please note:$> Switching to the <$Captions and Graphics$> workspace will close the <$Learn$> panel and hide this tutorial. You can reopen the <$Learn$> panel by choosing <$Window$> > <$Learning$> from the application menu."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "checkCti",
+                                            "payload": {
+                                                "position": [
+                                                    0
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "text": "Position the playhead at the beginning of the timeline."
+                                },
+                                {
+                                    "text": "Press the <%T%> key to select the <$Type$> tool."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "isClipSelected",
+                                            "payload": {
+                                                "clipName": "Graphic"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Type a title in the <$Program Monitor$> to add a title over your footage."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        },
+                        {
+                            "text": "This automatically opens the <$Properties$> panel, where you can adjust a range of properties from <$Size$>, <$Font$>, <$Color$>, and even add a <$Background$> color to help your title stand out.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "isPanelOpen",
+                                            "payload": {
+                                                "panelName": "Effect Controls"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Choose <$Window$> > <$Effect Controls$> from the application menu to see additional transform properties like <$Position$>, <$Scale$>, <$Opacity$>, and other controls."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/da8d6d4b-d4f5-4cc2-a426-947cfe18d0ec.mp4"
+                        },
+                        {
+                            "text": "Animate your title",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Use the power of keyframes to animate the title onto this footage and add a little more flair to your static text.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "Click the <$Selection$> tool in the <$Tools$> panel."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "clipLengthChanged",
+                                            "payload": {
+                                                "clipName": "Graphic"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Drag the right edge of the clip containing the text graphic to make it as long as you need."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "ctiMoved"
+                                        }
+                                    ],
+                                    "text": "Position the playhead about one second into the timeline and select the text graphic."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "ctiMoved"
+                                        },
+                                        {
+                                            "check": "keyframeAdded",
+                                            "payload": {
+                                                "clipName": "Graphic",
+                                                "comment": "componentParameter=2 -> position",
+                                                "componentMatchName": "AE.ADBE Text",
+                                                "componentParameter": 2,
+                                                "keyframeAddCount": 1
+                                            }
+                                        }
+                                    ],
+                                    "text": "In the <$Effect Controls$> panel, click the \">\" next to <$Text$> to reveal the title's properties. Scroll down to <$Transform$> and click the <$stopwatch icon$> next to <$Position$> to set a keyframe at the playhead's current position."
+                                },
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "keyframeAdded",
+                                            "payload": {
+                                                "clipName": "Graphic",
+                                                "comment": "componentParameter=2 -> position",
+                                                "componentMatchName": "AE.ADBE Text",
+                                                "componentParameter": 2,
+                                                "keyframeAddCount": 2
+                                            }
+                                        }
+                                    ],
+                                    "text": "Move the playhead to the beginning of the timeline and drag the text off the screen. This automatically sets another keyframe position. The closer the keyframes are together, the quicker the animation. The further apart they are, the slower the animation."
+                                },
+                                {
+                                    "text": "To make this animation look smoother, apply easing to the keyframes. Right-click the first keyframe and choose <$Temporal Interpolation$> > <$Ease Out$>. Right-click the second keyframe and choose <$Temporal Interpolation$> > <$Ease In$>."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/2a907cf9-df62-4347-b727-c9cdb576b4c2.mp4"
+                        },
+                        {
+                            "text": "Improve the animation with a mask",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Add a mask so the text seems to animate from inside the footage, rather than from off- screen.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Effect Controls$> panel, click the <$Rectangle$> mask under the text layer to add a mask in the center of the <$Program Monitor$>."
+                                },
+                                {
+                                    "text": "Drag the center of the mask to position it directly over the text. Drag each corner of the mask shape so it completely covers the text."
+                                },
+                                {
+                                    "text": "Play the sequence to see the text appearing within the mask shape rather than animating from the edge of the screen."
+                                },
+                                {
+                                    "text": "Feel free to add more <$Position$> keyframes after this point to animate the text away from the mask shape."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/f571b4ff-078c-4085-bf9a-6e483beccabc.mp4"
+                        },
+                        {
+                            "text": "Add a motion graphics template",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Discover how easy it is to use motion graphics templates (mogrts) to add animated titles to your video.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "checkUserInteractions": [
+                                        {
+                                            "check": "isPanelOpen",
+                                            "payload": {
+                                                "panelName": "Graphics"
+                                            }
+                                        }
+                                    ],
+                                    "text": "Choose <$Window$> > <$Graphics Templates$> from the application menu to open the <$Graphics Templates$> panel."
+                                },
+                                {
+                                    "text": "Click the <$Adobe Stock$> tab to browse the motion graphics template library on Adobe Stock. Click any template you like and slowly hover-scrub to see a preview of it in the panel. Drag and drop it in your sequence to install it locally and add it to your project."
+                                },
+                                {
+                                    "text": "Click the <$My Templates$> tab to browse installed templates."
+                                },
+                                {
+                                    "text": "Click the <$+ button$> (right of the search bar) on the <$My Templates$> tab to install a template outside of Adobe Stock's template library. It will appear at the top of your other installed templates."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        },
+                        {
+                            "texts": [
+                                "I created three templates for you to use in your projects: an animated title, a title treatment, and a shape transition.",
+                                "<a href=\"https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video/James-Bonanno-mogrts.zip\">Download</a> the package (James-Bonanno-mogrts.zip), unzip it, and note the location of those templates so you'll find them later. They have the .mogrt extension."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "Select the mogrt you added to your timeline. The <$Properties$> panel will show you what you can adjust. Depending on the template, you can customize parameters such as text, color, embedded media, and so on."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        },
+                        {
+                            "text": "You are just about there on finishing your film. But the last and final step is what to do now that it's complete.",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Almost there!",
+                            "successText": "Now that you've added an animated title and explored motion graphics templates, you're ready to save, export, and share your travel video with the world.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "3ce9b590-cc84-3fd6-834f-92a2f736ad54",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "3ce9b590-cc84-3fd6-834f-92a2f736ad54",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/add-captions-and-graphics-to-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Create simple titles and graphics to elevate your film.",
+            "short": "Create simple titles and graphics to elevate your film.",
+            "long": "Create simple titles and graphics to elevate your film."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/c49ab550-6372-3d4a-a5c5-ac2f3e9a8a75/f84b6d20-f9db-49cd-9e37-30f97d61118e_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/c49ab550-6372-3d4a-a5c5-ac2f3e9a8a75/bd708fe1-6630-4f17-b8e3-6ed16121f759_1920x1080.jpg"
+        },
+        "title": "Add animated titles and motion graphics",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "300",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "graphics",
+            "titles",
+            "templates"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Graphics",
+                    "id": "6a39c69be39b405fbbc67bb8977b278e",
+                    "internalId": "graphics"
+                },
+                {
+                    "enName": "Titles",
+                    "id": "a8a905d4d5924821895314129e2da0a1",
+                    "internalId": "titles"
+                },
+                {
+                    "enName": "Templates",
+                    "id": "353572104a3946b2ac57aee55fd974a3",
+                    "internalId": "templates"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2025-10-03T18:03:35.620Z",
+    "modified_on": "2025-10-03T18:03:35.620Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "c49ab550-6372-3d4a-a5c5-ac2f3e9a8a75",
+    "commitId": "f7e835c80a32f89950b99f64ca22febb11a2e095",
+    "type": "project"
+}

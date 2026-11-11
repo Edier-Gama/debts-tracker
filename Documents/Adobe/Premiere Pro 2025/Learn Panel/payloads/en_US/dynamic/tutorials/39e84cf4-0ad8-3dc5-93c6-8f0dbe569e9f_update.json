@@ -1,0 +1,213 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/footage/IPHONE_IMG_2611.mp4"
+            ],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/Refine-Edit.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/e0b110ae-3b98-471a-a8c7-21114ff70453.mp4"
+                        },
+                        {
+                            "text": "Adding music to your film",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Adding in a music track can really set the tone for your video. I've included a few options in the <$Project$> panel and there are hundreds more available in the <$Essential Sound$> panel.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Project$> panel, review the music options in the <$03_Audio$> file."
+                                },
+                                {
+                                    "text": "To find more music options, open the <$Essential Sound$> panel and switch to the <$Browse$> tab."
+                                },
+                                {
+                                    "text": "With the <$Music$> option selected, use the filters to find the perfect song for your video."
+                                },
+                                {
+                                    "text": "Drag your selected track onto one of the Audio tracks in the <$Timeline$> panel."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/a91e9475-a56f-45f2-a301-1e83a656095a.mp4"
+                        },
+                        {
+                            "text": "Trim your clips to the beat",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "The music you select is a direct complement to the clips that you pair with it. When selecting my music I like to think about parts of the track that can be timed to specific clips that I've shot.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "Move the playhead through your sequence and add markers to the music clip following the waveform. This will allow you to quickly trim clips to the marked point and match your visuals to the music."
+                                },
+                                {
+                                    "text": "Continue reviewing your draft. Consider how your clips play against the music. You can move clips in or our of your selects sequence until you're satisfied with your project."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/refine-your-travel-film/2ad7c145-529c-4bd4-baaf-01744fafcb24.mp4"
+                        },
+                        {
+                            "text": "Pro-tips for editing audio and video",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Review your film and keep an eye out for places you can incorporate some of these tips. I've listed them below to make it easier.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "Think of the focal lengths of your clips. Edits work well when you trick the viewer's eye by going from a wide shot to a tight shot or a tight shot to a wide shot to explore the different moments of each scene."
+                                },
+                                {
+                                    "text": "Try to keep things flowing by pairing footage together. Clips that have similar action to each other also cut well together."
+                                },
+                                {
+                                    "text": "Don't always use a hard cut. Instead, use the handles of your audio and drag out the beginning of just the audio to further anticipate the scene that comes next. This method is known as a J-Cut and is a great way to make your edits feel more seamless and professional!"
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Amazing!",
+                            "successText": "By now, your film should really be coming together. But we're not done yet! In the next tutorial, I'll show you how I take my audio mix even further.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "f465cf93-702a-3f85-aca5-f2100633562f",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "f465cf93-702a-3f85-aca5-f2100633562f",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/refine-your-travel-film",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Enhance your video by adding a background track and cutting your footage to match the music.",
+            "short": "Enhance your video by adding a background track and cutting your footage to match the music.",
+            "long": "Enhance your video by adding a background track and cutting your footage to match the music."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/39e84cf4-0ad8-3dc5-93c6-8f0dbe569e9f/refine-your-travel-film_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/39e84cf4-0ad8-3dc5-93c6-8f0dbe569e9f/refine-your-travel-film_1920x1080.jpg"
+        },
+        "title": "Set the mood with music",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "300",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "video"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-25T20:21:53.180Z",
+    "modified_on": "2025-07-18T20:29:12.555Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "39e84cf4-0ad8-3dc5-93c6-8f0dbe569e9f",
+    "commitId": "7eb8c309cb8c424b9131aa80ed5cd5705a941618",
+    "type": "project"
+}

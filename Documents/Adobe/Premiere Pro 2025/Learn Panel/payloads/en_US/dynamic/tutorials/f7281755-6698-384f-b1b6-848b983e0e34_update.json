@@ -1,0 +1,223 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/IPHONE_IMG_2611.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/City_Traffic_Adobestock_601821170.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/Skateboard_Approach_09_Adobestock_601820535.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/footage/Seagulls_and_Crows_03_Adobestock_601822339.mp3"
+            ],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/Sound-Design.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/423de751-b9d9-4c3a-be5d-61f12b67b9b0.mp4"
+                        },
+                        {
+                            "text": "Complement your clips with sound design",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Adding sound effects and ambience is a great way to add to your video's mood. Use the <$Essential Sound$> panel to add different effects to your video. For consistency, I've opened a new project with a draft sequence that you can practice on, but you can follow these steps using your own project.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the application menu, choose <$Window$> > <$Essential Sound$> to open the panel."
+                                },
+                                {
+                                    "text": "Switch to the <$Browse$> tab and then select the <$SFX$> option. There are both free and paid options available. To only show free assets, open the <$Filters$> toggle and choose <$Free$>."
+                                },
+                                {
+                                    "text": "Find a clip in your draft sequence you'd like to add a sound effect to."
+                                },
+                                {
+                                    "text": "Use the search bar to find ambient sounds that fit the scene you chose. When you find one you like, drag it from the <$Essential Sound$> panel and drop it onto an audio track. Repeat these last two steps until you've added sound effects throughout your video."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/sound-design-travel-video/340513a1-6204-4084-94d4-04f34e720857.mp4"
+                        },
+                        {
+                            "text": "Mixing your music and sound effects",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "We've already added a music track to this film, but it needs to be refined a bit before we're done with our sound mix.",
+                            "type": "text"
+                        },
+                        {
+                            "texts": [
+                                "I recommend working in the <$Audio$> workspace during this step in the editing process. You can switch by choosing <$Window$> > <$Workspaces$> > <$Audio$>."
+                            ],
+                            "type": "well",
+                            "wellType": "beware"
+                        },
+                        {
+                            "texts": [
+                                "<$Please note:$> Switching to the <$Audio$> workspace will close the <$Learn$> panel and hide this tutorial. You can reopen it while using the <$Audio$> workspace by choosing <$Window$> <$Learn$>. You can switch back to the <$Learning$> workspace by choosing <$Window$> > <$Workspaces$> > <$Learning$>."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Timeline$> panel, right-click on track <$Audio1$> and rename it."
+                                },
+                                {
+                                    "text": "In the timeline, use the fade handle to add a <$Fade in$> effect to the music clip."
+                                },
+                                {
+                                    "text": "If you did not switch to the audio workspace, choose <$Window$> > <$Audio track mixer$>."
+                                },
+                                {
+                                    "text": "In the <$Audio Track Mixer$> panel, open the <$Show/Hide Effects$> menu. Then, in the Music track, click one of the <$Effect Selection$> arrows and choose <$Amplitude and Compression$> > <$Amplify$>."
+                                },
+                                {
+                                    "text": "Double-click on the word <$Amplify$> to open the <$Track Fx Editor$> pop-up window. Use the sliders to lower the volume of all the clips on the Music track."
+                                },
+                                {
+                                    "text": "In the toolbar, click and hold on the <$Ripple Edit$> tool and choose the <$Remix$> tool. Drag the end of the music track to where you want it to end."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Great job!",
+                            "successText": "Your video is really coming together now that you've added music and sound effects. In the next step, you'll learn to use the <$Lumetri Color$> panel to color correct and grade your films.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "8f80421d-eb4a-31e8-b3e7-7b761a3af1ff",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "8f80421d-eb4a-31e8-b3e7-7b761a3af1ff",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/sound-design-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Create an immersive sound design by mixing in sound effects.",
+            "short": "Create an immersive sound design by mixing in sound effects.",
+            "long": "Create an immersive sound design by mixing in sound effects."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/f7281755-6698-384f-b1b6-848b983e0e34/sound-design-travel-video_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/f7281755-6698-384f-b1b6-848b983e0e34/sound-design-travel-video_1920x1080.jpg"
+        },
+        "title": "Add ambiance with sound design",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "300",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "audio",
+            "audio-editing",
+            "video"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Audio",
+                    "id": "da0d60b4b806415f931d9ba3a1ee6d02",
+                    "internalId": "audio"
+                },
+                {
+                    "enName": "Audio editing",
+                    "id": "adce2a8ba0724a64a6d69e1288654852",
+                    "internalId": "audio-editing"
+                },
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-25T20:22:07.997Z",
+    "modified_on": "2025-07-18T20:29:13.335Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "f7281755-6698-384f-b1b6-848b983e0e34",
+    "commitId": "7eb8c309cb8c424b9131aa80ed5cd5705a941618",
+    "type": "project"
+}

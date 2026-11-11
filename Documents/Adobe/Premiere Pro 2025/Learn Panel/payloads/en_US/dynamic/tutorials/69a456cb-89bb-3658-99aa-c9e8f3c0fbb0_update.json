@@ -1,0 +1,92 @@
+{
+    "creative_categories": [
+        "nuj-creative-effects"
+    ],
+    "platforms": [
+        "in-app"
+    ],
+    "total_duration": 240,
+    "status": "live",
+    "tutorial_ids": [
+        "0e2d7f85-e90d-3af5-ac81-6aafaa1024c1"
+    ],
+    "taxonomy": {
+        "topics": [
+            {
+                "enName": "Generative AI",
+                "name": "Generative AI",
+                "internalId": "generative-ai",
+                "archived": false,
+                "id": "b68831a79e42449d943ff2a0b0965b35"
+            },
+            {
+                "enName": "Video editing",
+                "name": "Video editing",
+                "internalId": "video-editing",
+                "archived": false,
+                "id": "1a4bf81f09114391ae2330bf04b5fd6d"
+            },
+            {
+                "enName": "Audio editing",
+                "name": "Audio editing",
+                "internalId": "audio-editing",
+                "archived": false,
+                "id": "adce2a8ba0724a64a6d69e1288654852"
+            }
+        ],
+        "creative_fields": [
+            {
+                "enName": "Video & audio",
+                "name": "Video & audio",
+                "internalId": "video",
+                "archived": false,
+                "id": "4f1f7cf84f3349a59e40f91a4b0e3005"
+            }
+        ]
+    },
+    "topics": [
+        "Generative AI",
+        "Video editing",
+        "Audio editing"
+    ],
+    "playlist_stage": "New - in progress",
+    "modified_on": "Wed Jan 07 18:36:27 UTC 2026",
+    "products": [
+        {
+            "sapCode": "PPRO",
+            "fiCode": "premierepro_cc"
+        }
+    ],
+    "header": "",
+    "playlistUUID": "69a456cb-89bb-3658-99aa-c9e8f3c0fbb0",
+    "formatVersion": "1.0",
+    "id": "69a456cb-89bb-3658-99aa-c9e8f3c0fbb0",
+    "created_on": "Tue Apr 01 23:3:54 UTC 2025",
+    "creative_fields": [
+        "Video & audio"
+    ],
+    "stage": "101",
+    "source": {
+        "third_party": false,
+        "label": "Adobe.com"
+    },
+    "text": "",
+    "published_on": "Wed Jan 07 18:36:27 UTC 2026",
+    "level": "beginner",
+    "images": {
+        "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/69a456cb-89bb-3658-99aa-c9e8f3c0fbb0/in-app_thumbnail.jpg",
+        "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/69a456cb-89bb-3658-99aa-c9e8f3c0fbb0/in-app_thumbnail.jpg"
+    },
+    "applications": {
+        "fi_code": [
+            "premierepro_cc"
+        ],
+        "sap_code": [
+            "PPRO"
+        ]
+    },
+    "description": "Perfect your edits by adding or replacing frames using Generative Extend. ",
+    "aem_id": "playlist/premiere-pro/use-generative-extend-to-add-frames",
+    "type": "skills-and-projects",
+    "title": "Use Generative Extend to add frames with AI"
+}

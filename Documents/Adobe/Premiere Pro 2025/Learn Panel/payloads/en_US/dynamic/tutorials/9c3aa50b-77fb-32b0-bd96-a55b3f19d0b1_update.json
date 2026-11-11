@@ -1,0 +1,278 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/IPHONE_IMG_2611.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/City_Traffic_Adobestock_601821170.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/Skateboard_Approach_09_Adobestock_601820535.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/footage/Seagulls_and_Crows_03_Adobestock_601822339.mp3"
+            ],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/Start-Editing.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/540c2c68-1d92-4eef-aa16-808b9d424f9e.mp4"
+                        },
+                        {
+                            "text": "Create a selects sequence",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "For consistency, I've set up a new project and organized the example footage, but you can continue to work with you own project. Now, let's set up a selects sequence of all the best clips for our video.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Project$> panel, select the <$01_Sequences$> bin. Then, create a new sequence by choosing <$File$> > <$New$> > <$Sequence$> or by using the shortcut <%{KEY.COMMAND_CONTROL.{{osName}}}%> + <%N%>."
+                                },
+                                {
+                                    "text": "Switch to the <$Settings$> tab. In the <$Timebase$> drop down menu, choose <$23.876$>. Change the <$Frame Size$> to <$1920 horizontal$> and <$1080 vertical$>. Finally, in the <$Pixel Aspect Ratio$> drop down, choose <$Square Pixels (1.0)$>."
+                                },
+                                {
+                                    "text": "At the bottom, change the <$Sequence Name$> to something you'll be able to use to identify as your selects later, like MY-ADOBE-FILM_SELECTS."
+                                },
+                                {
+                                    "text": "Choose <$Save Preset...$> to save these settings for use in future projects. Then, select <$OK$> to create the sequence."
+                                },
+                                {
+                                    "text": "In the <$Project$> panel, open the bin with your footage. If you're using the practice file, open the <$02_Footage$> bin. Select all of the clips and drag them into the <$Timeline$> panel."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/cb617e3d-4550-4003-abb7-0148ddaac7d7.mp4"
+                        },
+                        {
+                            "text": "Using shortcuts to cut your footage",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Using custom shortcuts is one way to edit more efficiently. I like to use <%J%> and <%W%>, but you can use whatever keys feel right to you. I'll also list out the default shortcuts for each step. Give it a try using the selects sequence you've built.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "(Optional) To customize your shortcuts, choose <$Premiere Pro$> > <$Keyboard Shortcuts$> from the application menu to open the Keyboard Shortcuts dialogue box. Then, select the letter <%J%> from the keyboard image. Then, locate <$Shuttle Left$> in the bottom-right table and click the <$X$>. Use the search bar above the left table to find <$Add Edit$> and drag it onto the <%J%> in the keyboard image above."
+                                },
+                                {
+                                    "text": "(Optional) In the <$Keyboard Shortcuts$> dialogue box, select the letter <%W%> from the keyboard image and change the shortcut to <$Ripple Delete$>."
+                                },
+                                {
+                                    "text": "Try using the down arrow on your keyboard to to move forward through your selects sequence. Then, use the up arrow to move backwards."
+                                },
+                                {
+                                    "text": "Try using shortcuts to trim your footage. <ul><li>Use the <%L%> key to fast forward to where you want to make a cut.</li><li>If you customized your shortcuts to match my setup, use <%J%> to add an edit. If you did not change your shortcuts, use <%{KEY.COMMAND_CONTROL.{{osName}}}%> + <%K%></li><li>If you customized your shortcuts to match my setup, use <%W%> to perform a ripple edit, or use <%{KEY.COMMAND_CONTROL.{{osName}}}%> + <%BACKSPACE%>."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/cf7e32f4-6a98-4d2f-86fe-af9ac1ac0e32.mp4"
+                        },
+                        {
+                            "text": "Create labels and chapter markers",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Adding labels and markers to your clips is one way to quickly identify the different parts of your story, which will help you assemble your final video much more quickly. Try adding labels and markers to the footage in your Selects sequence.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "Using color coded labels is one way to visually differentiate your footage. Try it by right-clicking on the desired clip and choosing <$Label$>. Then, pick your favorite color from the list."
+                                },
+                                {
+                                    "text": "Use the <$L$> key to fast forward through the footage. Press the <$L$> multiple times to increase the shuttle speed. Press <$K$> to stop the playhead when you find a clip you want to add a marker to."
+                                },
+                                {
+                                    "text": "Click any blank area in the timeline so that no clips are selected. Then, in the application menu, choose <$Markers$> > <$Add Marker$>. Choose a color from the <$Marker$> window and press <$OK$>."
+                                },
+                                {
+                                    "checkParallel": true,
+                                    "text": "Next add a comment marker by fast forwarding or dragging the playhead until you find another clip to mark Press <$M$> on your keyboard to add a marker to the clip."
+                                },
+                                {
+                                    "text": "In the application menu, choose <$Window$> > <$Markers$> to open the Markers panel. Double-click on the second marker in the list and change the color and leave a comment."
+                                },
+                                {
+                                    "text": "Review all of the footage in your selects sequence, using labels and markers to highlight the clips you want to use in your travel video. As you work, you can also move clips to other video tracks to further differentiate them."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/assemble-footage-travel-video/3c284db9-c901-4abd-8679-b531a7ee2ea0.mp4"
+                        },
+                        {
+                            "text": "Pancake editing",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Pancake editing refers to stacking two timelines on top of each other so you can easily drag clips from one as you build your draft cut in the other. Give it a try using the selects sequence you created.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Project$> panel, right-click and choose <$New Item$> > <$Sequence$> to add a new sequence using the preset you made earlier. Give this sequence a name you'll be able to identify as a draft later, for example MY-ADOBE-FILM_DRAFT_V001."
+                                },
+                                {
+                                    "text": "In the <$Timeline$> panel, drag your draft sequence to the bottom of the panel until you see the purple line. Both sequences should now be stacked with your draft sequence under your selects sequence."
+                                },
+                                {
+                                    "text": "Review the footage in your selects sequence. When you find a clip you want to use, drag it to your draft sequence."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Awesome",
+                            "successText": "Your video should really be taking shape now! In the next tutorial, you'll see how James refines his draft video using music.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "45ad1fa8-3aa4-35d3-b861-4e9ddd8164b6",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "45ad1fa8-3aa4-35d3-b861-4e9ddd8164b6",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/assemble-footage-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Start the editing process by creating a sequence and assembling your clips.",
+            "short": "Start the editing process by creating a sequence and assembling your clips.",
+            "long": "Start the editing process by creating a sequence and assembling your clips."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/9c3aa50b-77fb-32b0-bd96-a55b3f19d0b1/assemble-footage-travel-video_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/9c3aa50b-77fb-32b0-bd96-a55b3f19d0b1/assemble-footage-travel-video_1920x1080.jpg"
+        },
+        "title": "Start editing your cinematic travel video",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "300",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "video",
+            "organization",
+            "shortcuts"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                },
+                {
+                    "enName": "Organization",
+                    "id": "3ca58f09dca34a569a52ac7de692b32e",
+                    "internalId": "organization"
+                },
+                {
+                    "enName": "Shortcuts",
+                    "id": "97e1a95a2f43418bb8da6f8abd7174ec",
+                    "internalId": "shortcuts"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-25T20:21:25.293Z",
+    "modified_on": "2025-07-25T15:36:38.538Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "9c3aa50b-77fb-32b0-bd96-a55b3f19d0b1",
+    "commitId": "a39f450fb351510191dbe728030aea39a1d28dd0",
+    "type": "project"
+}

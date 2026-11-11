@@ -1,0 +1,217 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/IPHONE_IMG_2611.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/City_Traffic_Adobestock_601821170.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/Skateboard_Approach_09_Adobestock_601820535.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/footage/Seagulls_and_Crows_03_Adobestock_601822339.mp3"
+            ],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/Create-Bins.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/7a878daf-4558-4d60-9b18-89a0524b5e5b.mp4"
+                        },
+                        {
+                            "text": "Create a new project",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "In this tutorial, I'll show you how to organize your project to set the foundation for editing your video. Watch the video above to learn how to create a new project.",
+                            "type": "text"
+                        },
+                        {
+                            "texts": [
+                                "In the video, I show you how to create a new project using <$Import$> mode. <$Please note$> that switching to <$Import$> mode will close the <$Learn$> panel and hide this tutorial. To reopen it, switch back to <$Edit$> mode."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "So that you don't have to switch back and forth, I've already created a project for you, which is open in the <$Project$> panel."
+                                },
+                                {
+                                    "text": "Click <$Next$> when you're ready to move to the next step."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/00325339-d9a0-4716-afbd-bd90ddb38a0d.mp4"
+                        },
+                        {
+                            "text": "Create bins to organize your footage",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Bins work like folders to organize your footage. Follow the instructions below to create some of your own.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Project$> panel, choose the <$New Bin$> icon and name this bin 01_Sequences."
+                                },
+                                {
+                                    "text": "Select 01_Sequences. Then, choose the <$New Bin$> icon to create a new bin inside the 01_Sequences bin."
+                                },
+                                {
+                                    "text": "Continue creating bins until your structure matches the folders below: <ul><li>01_Sequences<li>02_Footage<li>03_Audio<li>04_GFX <li>05_Stills <li>06_Extras</li></ul>"
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/import-footage-travel-video/70b27d10-eae6-4ff6-8b87-89b5c64e066a.mp4"
+                        },
+                        {
+                            "text": "Import your footage",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Now that your files are set up, it's time to import some footage.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Project$> panel, select <$02_Footage$>. Then, choose <$File$> > <$Import$> and select all of the video files that begin with CAMERA or IPHONE and click <$Import$>. You can also import your own footage during this step."
+                                },
+                                {
+                                    "text": "I've provided a few music clips for you to practice with. Import them by choosing the <$03_Audio$> bin and importing all of the clips that begin with AUDIO."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Fantastic!",
+                            "successText": "You've successfully imported footage to your project. In the next tutorial, you'll use that footage to begin editing your film.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "9721b5e4-4acc-35b5-83a1-88fdae9c4b9d",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "9721b5e4-4acc-35b5-83a1-88fdae9c4b9d",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/import-footage-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Kickstart your project by importing your footage and organizing it into bins like a pro.",
+            "short": "Kickstart your project by importing your footage and organizing it into bins like a pro.",
+            "long": "Kickstart your project by importing your footage and organizing it into bins like a pro."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/bc47b52c-9744-3386-9345-dbc45661b651/import-footage-travel-video_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/bc47b52c-9744-3386-9345-dbc45661b651/import-footage-travel-video_1920x1080.jpg"
+        },
+        "title": "Import and organize your travel footage",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "180",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "import"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Import",
+                    "id": "73ead4e72d824c67a634eef61675761b",
+                    "internalId": "import"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-25T20:21:43.814Z",
+    "modified_on": "2025-07-25T15:36:37.999Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "bc47b52c-9744-3386-9345-dbc45661b651",
+    "commitId": "a39f450fb351510191dbe728030aea39a1d28dd0",
+    "type": "project"
+}

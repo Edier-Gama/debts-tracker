@@ -1,0 +1,230 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/IPHONE_IMG_2611.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/City_Traffic_Adobestock_601821170.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/Skateboard_Approach_09_Adobestock_601820535.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/footage/Seagulls_and_Crows_03_Adobestock_601822339.mp3"
+            ],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/Save_Export.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/0164742f-f4ad-4eb3-84ec-639a4b5de174.mp4"
+                        },
+                        {
+                            "text": "Export your film",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Using the right export settings is a key part of making sure your film turns out exactly how you want it.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the timeline, set an in point at the beginning of your film by moving the playhead to the start and pressing <%I%>."
+                                },
+                                {
+                                    "text": "Move the playhead to the end of your film and press <%O%> to set an out point."
+                                },
+                                {
+                                    "text": "Select the <$Export$> button at the bottom of the window and wait for your video to render."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        },
+                        {
+                            "texts": [
+                                "<$Please note:$> Switching to <$Export$> mode will close the learn panel and hide this tutorial. Switching back to <$Edit$> mode will reopen this tutorial where you left off. Consider taking a screenshot or writing down the steps below."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "Switch to <$Export$> mode and use the following setting:<ul><li><$File Name$><li><$Location$><li><$Preset$>, choose <$Custom$><li><$Format$>, choose <$H.264$><li><$Frame Size$></li></ul>"
+                                },
+                                {
+                                    "text": "In the <$Video$> settings section, choose <$Match Source$>."
+                                },
+                                {
+                                    "text": "Select the <$Export$> button at the bottom of the window and wait for your video to render."
+                                },
+                                {
+                                    "text": "Switch back to <$Edit$> mode to learn how to publish your video to your social platforms."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/save-export-share-travel-video/964f247e-8fa4-406b-ab76-29db7d6b506a.mp4"
+                        },
+                        {
+                            "text": "Publish to your social media platforms",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Watch James's video and then take a screenshot of the steps below to try uploading your video to your YouTube channel. Remember, switching to <$Export$> mode will close the <$Learn$> panel and hide this tutorial.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In <$Export$> mode, enable uploading to <$YouTube$> from the sidebar. If needed, click <$Sign In$> to access your account."
+                                },
+                                {
+                                    "text": "Add your video <$Title$> and <$Description$>."
+                                },
+                                {
+                                    "text": "Update the other options like <$Playlist$>, <$Privacy Settings$>, or <$Tags$>."
+                                },
+                                {
+                                    "text": "If you want, add a <$Custom Thumbnail$> using the drop down. You can add a still from your video or upload a thumbnail from a file."
+                                },
+                                {
+                                    "text": "Repeat these steps for any other platforms you want to upload to."
+                                },
+                                {
+                                    "text": "Click the blue <$Export$> button to export your video and upload it to YouTube and any other social destinations you enabled."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Congrats!",
+                            "successText": "You've successfully edited a cinematic travel video. Be sure to practice these skills in your own projects and keep learning with other tutorials.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "3a4ed833-cbc5-3af9-b681-9bef9fa8e900",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "3a4ed833-cbc5-3af9-b681-9bef9fa8e900",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/save-export-share-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Complete your project by exporting your video and sharing it directly to your social pages.",
+            "short": "Complete your project by exporting your video and sharing it directly to your social pages.",
+            "long": "Complete your project by exporting your video and sharing it directly to your social pages."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/c6824960-46ff-3b16-9052-e07086a9d4a6/save-export-share-travel-video_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/c6824960-46ff-3b16-9052-e07086a9d4a6/save-export-share-travel-video_1920x1080.jpg"
+        },
+        "title": "Save, export, and share your travel video",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "120",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "video",
+            "export",
+            "social-media-videos"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                },
+                {
+                    "enName": "Export",
+                    "id": "1b96859c7bc4404295fceb4e67706dbd",
+                    "internalId": "export"
+                },
+                {
+                    "enName": "Social media videos",
+                    "id": "d1994573d7c6491dbcd936bdafe89167",
+                    "internalId": "social-media-videos"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-25T20:22:00.807Z",
+    "modified_on": "2025-07-25T15:36:37.723Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "c6824960-46ff-3b16-9052-e07086a9d4a6",
+    "commitId": "a39f450fb351510191dbe728030aea39a1d28dd0",
+    "type": "project"
+}

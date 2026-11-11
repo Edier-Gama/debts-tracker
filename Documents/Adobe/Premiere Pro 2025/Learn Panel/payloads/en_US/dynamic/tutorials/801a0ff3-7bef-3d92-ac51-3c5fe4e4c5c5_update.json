@@ -1,0 +1,137 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/intro-create-travel-video/travel-vid-intro.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/intro-create-travel-video/34f6c1e7-09ee-4bde-910e-47ec56319eca.mp4"
+                        },
+                        {
+                            "text": "Course overview",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "My goal with this 8-part lesson is to help guide you through how to make a film from start to finish in a fun and educational way. The idea of creating something cinematic can feel scary and daunting, especially if you've never opened up Premiere Pro before, but this series is the perfect place to start.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "So that you can practice your editing skills, I've included some footage from my video. However, I encourage you to follow along using your own footage!"
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "You're all set!",
+                            "successText": "Jump into editing with James in the next tutorial.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "73235e1d-c9a2-3aec-a39e-6e07ba1b5911",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "73235e1d-c9a2-3aec-a39e-6e07ba1b5911",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/intro-create-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Learn how to transform your travel footage into an engaging cinematic video.",
+            "short": "Learn how to transform your travel footage into an engaging cinematic video.",
+            "long": "Learn how to transform your travel footage into an engaging cinematic video."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/801a0ff3-7bef-3d92-ac51-3c5fe4e4c5c5/intro-create-travel-video_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/801a0ff3-7bef-3d92-ac51-3c5fe4e4c5c5/intro-create-travel-video_1920x1080.jpg"
+        },
+        "title": "Create a travel video",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "60",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "video",
+            "social-media-videos"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                },
+                {
+                    "enName": "Social media videos",
+                    "id": "d1994573d7c6491dbcd936bdafe89167",
+                    "internalId": "social-media-videos"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-22T16:12:40.845Z",
+    "modified_on": "2025-07-17T15:01:38.188Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "801a0ff3-7bef-3d92-ac51-3c5fe4e4c5c5",
+    "commitId": "2a543750c532c1c48251c7d2bab6d5d1c3421f19",
+    "type": "project"
+}

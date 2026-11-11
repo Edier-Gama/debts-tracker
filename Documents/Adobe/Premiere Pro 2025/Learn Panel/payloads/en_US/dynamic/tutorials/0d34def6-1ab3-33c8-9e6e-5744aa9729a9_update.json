@@ -1,0 +1,254 @@
+{
+    "surfaces": {
+        "in_app_panel": {
+            "format": "dva",
+            "version": "1",
+            "additionalAssets": [
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/AUDIO_Breakbeat-Upbeat-Madness-Loop_AdobeStock_676139707.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/AUDIO_Bright-Light-On-A-Pop-Inspiration---Loop_AdobeStock_676139748.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/AUDIO_In-The-Electronic-Cloud---Loop_AdobeStock_676139648.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0400.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0412.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0423.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0426.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0438.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0491.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0519.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/CAMERA_IMG_0542.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/IPHONE_IMG_2594.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/IPHONE_IMG_2611.mp4",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/City_Traffic_Adobestock_601821170.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/Skateboard_Approach_09_Adobestock_601820535.mp3",
+                "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/footage/Seagulls_and_Crows_03_Adobestock_601822339.mp3"
+            ],
+            "minVersion": "25.0",
+            "projectUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/Color-Grade-and-Correct.prproj",
+            "sizeBytes": "123456789",
+            "steps": [
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/99d0271f-15c2-4946-80ca-6981beb52a71.mp4"
+                        },
+                        {
+                            "text": "Color correcting and grading",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Color correction is the process of fixing any issues with your footage, like. overly dark areas, blown-out highlights, or footage that's too warm or cold. Try color correcting using <$Lumetri Scopes$>. If you're working from the practice files, I've opened a new one for consistency.",
+                            "type": "text"
+                        },
+                        {
+                            "texts": [
+                                "I prefer to work in the <$Color$> workspace while working on his projects. To switch to that workspace, choose <$Window$> > <$Workspaces$> > <$Color$> from the application menu."
+                            ],
+                            "type": "well",
+                            "wellType": "beware"
+                        },
+                        {
+                            "texts": [
+                                "<$Please note$>: Switching to the <$Color$> workspace will close the <$Learn$> panel and hide this tutorial. When in the <$Color$> workspace, you can reopen the <$Learn$> panel by choosing <$Window$> > <$Learning$> from the application menu."
+                            ],
+                            "type": "well",
+                            "wellType": "info"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Lumetri Scopes$> panel, click the wrench icon and make sure that the <$Waveform YC no Chroma)$>, <$Parade (RGB)$>, and <$Vectorscope YUV$> options are checked."
+                                },
+                                {
+                                    "text": "In the timeline, select the clip that you want to correct. Then, in the <$Basic Correction$> section of the <$Lumetri Color$> panel, adjust the <$Lighting$> sliders <$Contrast$> and <$Blacks$> so that the colors at the bottom of the scopes hover around the bottom above 0."
+                                },
+                                {
+                                    "text": "Adjust the <$Lighting$> sliders <$Highlights$> and <$Whites$> so that the colors at the top of the scopes are above 90 and below 100."
+                                },
+                                {
+                                    "text": "Use the <$Temperature$>, <$Tint$>, and <$Saturation$> sliders until the color temperature of your clip is well balanced."
+                                },
+                                {
+                                    "text": "In the <$Program Monitor$> click the icon for <$Comparison View$>. If you don't see it, click the <$+$> icon and add it to the <$Program Monitor$>. This will allow you to compare your corrected and uncorrected footage."
+                                },
+                                {
+                                    "text": "Repeat steps two through five until you've corrected all of your clips and ensured they match."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/f90744b2-c096-453d-a72d-c3989659a96d.mp4"
+                        },
+                        {
+                            "text": "Color grading and LUTs",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "Color grading is where you add your own specific style and flair to your film. One efficient way to do that is by using an <$Adjustment Layer$>.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Project$> panel, right-click and choose <$New Item$> > <$Adjustment Layer$>. Rename this <$Adjustment Layer$> Color Correction (LUT) and drag it onto the timeline. Finally, change the length of the <$Adjustment Layer$> so that it matches the length of your video."
+                                },
+                                {
+                                    "text": "In the <$Curves$> section of the <$Lumetri Color$> panel, adjust the <$RGB Curves$> until you're happy with the color of your clips."
+                                },
+                                {
+                                    "text": "In the <$Color Wheels & Match$> section of the <$Lumetri Color$> panel, adjust the colors of the<$Mid-tones$>, <$Shadows$>, and <$Highlights$>."
+                                },
+                                {
+                                    "text": "In the <$Creative$> section, explore the LUTs available in the <$Looks$> drop down and adjust the intensity using the slider."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "autoplay": true,
+                            "type": "video",
+                            "videoUrl": "https://helpx.adobe.com/content/dam/help/en/premiere-pro/how-to/in-app/color-adjustments-travel-video/0d7227e3-4242-4e23-983e-d9564d73ea53.mp4"
+                        },
+                        {
+                            "text": "Create your own LUT",
+                            "type": "heading"
+                        },
+                        {
+                            "text": "If you like the way your color grade looks, you can save it to use in future projects.",
+                            "type": "text"
+                        },
+                        {
+                            "listItems": [
+                                {
+                                    "text": "In the <$Timeline$>, select the <$Adjustment Layer$>."
+                                },
+                                {
+                                    "text": "In the <$Lumetri Color$> panel menu, choose <$Export .cube$> and save the file to your desired location."
+                                },
+                                {
+                                    "text": "To import your saved LUT, open the <$Creative$> section of the <$Lumetri Color$> panel. In the <$Look$> drop down menu, choose <$Browse$> and then navigate to where you saved your LUT."
+                                }
+                            ],
+                            "type": "listSubsteps"
+                        }
+                    ]
+                },
+                {
+                    "stepItems": [
+                        {
+                            "successHeading": "Great job!",
+                            "successText": "Now that you've color corrected and graded your footage, you're ready to add graphics and titles.",
+                            "type": "endScreen"
+                        }
+                    ]
+                }
+            ]
+        },
+        "in_app_panels": {
+            "live": "a6885b4f-ee1c-3b17-a352-d0601f037ca4",
+            "versions": [
+                1
+            ]
+        },
+        "ids": {
+            "in_app_panels": {
+                "live": "a6885b4f-ee1c-3b17-a352-d0601f037ca4",
+                "versions": [
+                    1
+                ]
+            }
+        }
+    },
+    "aem_id": "premiere-pro/how-to/in-app/color-adjustments-travel-video",
+    "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+            "medium": "Use the Lumetri Color panel and scopes to give your video a professional, cinematic color grade.",
+            "short": "Use the Lumetri Color panel and scopes to give your video a professional, cinematic color grade.",
+            "long": "Use the Lumetri Color panel and scopes to give your video a professional, cinematic color grade."
+        },
+        "media_types": [
+            "project"
+        ],
+        "creative_fields": [
+            "video"
+        ],
+        "application": {
+            "fi_code": "premierepro_cc",
+            "sap_code": "PPRO"
+        },
+        "locale": "en_US",
+        "images": {
+            "hero": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/0d34def6-1ab3-33c8-9e6e-5744aa9729a9/color-adjustments-travel-video_1000x560.jpg",
+            "thumbnail": "C:/Users/Public/Documents/Adobe/Premiere Pro 2025/Learn Panel/payloads/en_US/dynamic/content/0d34def6-1ab3-33c8-9e6e-5744aa9729a9/color-adjustments-travel-video_1920x1080.jpg"
+        },
+        "title": "Add a cinematic look to your video",
+        "platforms": [
+            "in-app"
+        ],
+        "duration_in_seconds": "300",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+            "fi_code": [],
+            "sap_code": []
+        },
+        "relatedContents": [],
+        "level": "beginner",
+        "stage": "begin",
+        "source": {
+            "third_party": false,
+            "label": "Adobe.com"
+        },
+        "topics": [
+            "color",
+            "video",
+            "creative-effects"
+        ],
+        "urls": {},
+        "taxonomy": {
+            "creative_fields": [
+                {
+                    "enName": "Video & audio",
+                    "id": "4f1f7cf84f3349a59e40f91a4b0e3005",
+                    "internalId": "video"
+                }
+            ],
+            "topics": [
+                {
+                    "enName": "Color",
+                    "id": "0b866e9c90384a2a8a4feefa187d13f4",
+                    "internalId": "color"
+                },
+                {
+                    "enName": "Video",
+                    "id": "24fd8e87f017494b85a64d022d2c81e1",
+                    "internalId": "video"
+                },
+                {
+                    "enName": "Creative effects",
+                    "id": "96a0db0625324adfaaee16dde4533dac",
+                    "internalId": "creative-effects"
+                }
+            ]
+        }
+    },
+    "urls": {},
+    "created_on": "2024-11-25T20:21:34.218Z",
+    "modified_on": "2025-07-25T15:36:38.327Z",
+    "locale": "en_US",
+    "published_status": "live",
+    "tutorialUUID": "0d34def6-1ab3-33c8-9e6e-5744aa9729a9",
+    "commitId": "a39f450fb351510191dbe728030aea39a1d28dd0",
+    "type": "project"
+}
